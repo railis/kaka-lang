@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/kaka"
+
+Kaka::exec!(File.read(ARGV[0]))
