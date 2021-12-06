@@ -1,4 +1,5 @@
 require_relative "kaka/tokenizer"
+require_relative "kaka/parser"
 
 module Kaka
   def self.exec!(file_body)

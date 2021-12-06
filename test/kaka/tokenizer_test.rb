@@ -1,9 +1,5 @@
 require_relative "../test_helper"
 
-def assert_tokens(body, tokens)
-  Kaka::Tokenizer.tokenize(body).map(&:inspect).join.must_equal(tokens)
-end
-
 describe Kaka::Tokenizer do
 
 spec = <<~EOS
